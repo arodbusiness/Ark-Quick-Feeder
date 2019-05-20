@@ -11,7 +11,7 @@ return
 	if (WinActive("ahk_class UnrealWindow"))
 	{
 		Send {f}
-		Sleep 250
+		Sleep 500
 		MouseClick, , 0.111*A_ScreenWidth, 0.173*A_ScreenHeight
 		Sleep 50
 		Send %SearchString%
